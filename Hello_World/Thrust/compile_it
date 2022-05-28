@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Thrust
+nvcc vec.cu -o vec
+nvcc vec2.cu -o vec2
+nvcc norm.cu -o norm
+nvcc trans.cu -o trans
+nvcc list.cu -o list

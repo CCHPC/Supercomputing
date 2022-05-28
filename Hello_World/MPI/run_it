@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo "Running plain C++ \"Hello\" \n\n"
+./hello
+
+echo "Running MPI C++ \"Hello\" \n\n"
+mpirun -np 4 ./mpi_hello

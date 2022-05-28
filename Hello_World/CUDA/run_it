@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo "Running plain C \"Hello\" \n\n"
+./c_hello
+
+echo "Running CUDA \"Hello\" \n\n"
+./cuda_hello

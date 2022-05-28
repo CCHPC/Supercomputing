@@ -1,0 +1,7 @@
+#!/bin/sh
+
+#Plain g++
+g++ hello.cpp -o hello
+
+# MPI
+mpicxx mpi_hello.cpp -o mpi_hello

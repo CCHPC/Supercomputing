@@ -1,0 +1,13 @@
+#!/bin/sh
+
+echo "Running CUDA \"Vec\" \n\n"
+./vec
+
+echo "Running CUDA \"Vec2\" \n\n"
+./vec2
+
+echo "Running CUDA \"norm\" \n\n"
+./norm
+
+echo "Running CUDA \"list\" \n\n"
+./list
